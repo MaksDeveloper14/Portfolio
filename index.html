@@ -9,86 +9,108 @@
 </head>
 <body>
 
+	<!-- Container-site -->
 	<div class="container-site">
 
-		<!-- Шапка сайта -->
-		<header>
-			<!-- Навигация -->
-			<div class="navigation"> 
 
-			</div>	
-			<!-- Вступление -->
-			<div class="introduction">
+		<!-- Header -->
 
+		<header class="header">
+			<div class="header__navigation"> 
+				<span id="my-name">Максим Волков</span>
+				<div class="my-phones">
+					<span id="my-phone">+7-963-648-30-55</span>
+					<br>
+					<span id="my-phone">+7-926-917-86-04</span>
+				</div>
 			</div>
+			<h1 class="header__title"><span>Junior Frontend <br> Developer</span></h1>	 
+			<h2 class="header__text">Your web app will be <br> located here...</h2>
 		</header>
 
 
-		<!-- Обо мне -->
+
+		<!-- About me -->
+
 		<div class="about-me">
+			<img src="images/my-photo2.jpg" class="about-me__my-photo" alt="Моя фотография"> 
 			<div class="about-me__text">
-				<h2>Кратко обо мне:</h2>
+				<h3 class="title2">Кратко обо мне:</h3>
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veritatis, cumque, officia sit dolores accusantium nostrum. Ea molestiae ipsa minus amet cum voluptas aliquam dicta possimus tenetur, quam quidem voluptatum. Assumenda modi, itaque quas dolores aspernatur, tenetur exercitationem, porro eum maiores ipsa ipsum tempora pariatur voluptatibus, nobis earum. Consectetur reiciendis harum facere debitis vero perspiciatis, quia nulla dicta non ea sunt eos molestias totam at ducimus commodi. Hic pariatur facere ipsum.
 			</div>
-			<img src="images/моя фотография.jpg" class="about-me__my-photo" alt="Моя фотография"> 
 		</div>
 
 
-		<!-- Позиция -->
-		<div class="frontend">
-			Junior Frontend
-		</div>
 
+		<!-- My works -->
 
-		<!-- Мои работы -->
 		<div class="my-works">
-			<div class="my-works__item my-works__codepen"></div>
-			<div class="my-works__item my-works__github"></div>
-		</div>
-
-
-		<!-- Стек технологии -->
-		<div class="technology">
-			<div class="technology__wrap-items">
-				<div class="technology__wrap-items-row">
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-				</div>
-				<div class="technology__wrap-items-row">
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-				</div>
-				<div class="technology__wrap-items-row">
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-					<div class="technology__item"></div>
-				</div>
+			<h2 class="my-works__title">Мои работы</h2>
+			<div class="inner-wrap">
+				<a href="https://codepen.io/Tixonov/collections/" target="blank" class="my-works__link">Курсы Нетология - более 80 выполненных заданий, 3 дипломных <br> работы</a>
+				<a href="https://codepen.io/Tixonov/pen/abdmBLE" target="blank" class="my-works__link">Игра <br> на JavaScript</a>
+				<a href="#" target="blank" class="my-works__link">React - список задач</a>
+				<a href="#" target="blank" class="my-works__link">React - Одностраничное приложение c использованием Redux</a>
+				<a href="#" target="blank" class="my-works__link">Вёрстка по psd макету</a>
+				<a href="#" target="blank" class="my-works__link">2 выполненных тестовых заданий</a>
+				<a href="#" target="blank" class="my-works__link">Дипломная работа - верстка макета</a>
+				<a href="#" target="blank" class="my-works__link">Дипломная работа - JavaScript в браузере</a>
+				<a href="#" target="blank" class="my-works__link">Другие</a>
 			</div>
 		</div>
 
-	</div>
 
-	<!-- 
 
-	1. Шапка сайта
-	2. Обо мне
-	3. Позиция в разработке ПО
-	4. Ссылки на работы
-	5. Стек технологий
+		<!-- Footer -->
 
-	 -->
+		<footer class="footer">
+			<div class="certificates">	
+				<a href="https://netology.ru/backend/api/user/programs/8802/pdf_certificate" class="certificaties__item">1</a>
+				<a href="https://netology.ru/backend/api/user/programs/7002/pdf_certificate" class="certificaties__item">2</a>
+				<a href="https://netology.ru/backend/api/user/programs/7848/pdf_certificate" class="certificaties__item">3</a>
+			</div>
+			<div class="footer__text">2020</div>
+		</footer>
 
-	<script src="main.js"></script>
+
+
+	</div> 
+
+
+
+
+
+
+			<!-- Стек технологии -->
+		
+<!-- 		<div class="technology">
+			<div class="technology__wrap-items">
+				<div class="technology__wrap-items-row">
+					<div class="technology__item" id="technology-git">Git</div>
+					<div class="technology__item" id="technology-bem">БЭМ</div>
+					<div class="technology__item">PhpMyAdmin</div>
+					<div class="technology__item">Адаптивная вёрстка</div>
+					<div class="technology__item">Кроссбраузерная верстка</div>
+					<div class="technology__item">Графические редакторы: Photoshop, Figma</div>
+				</div>
+				<div class="technology__wrap-items-row">
+					<div class="technology__item" id="technology-react">React</div>
+					<div class="technology__item" id="technology-vue">Vue</div>
+					<div class="technology__item" id="technology-angular">Angular</div>
+					<div class="technology__item">WordPress</div>
+					<div class="technology__item">Bootstrap</div>
+					<div class="technology__item">PHP</div>
+				</div>
+				<div class="technology__wrap-items-row">
+					<div class="technology__item">SQL</div>
+					<div class="technology__item">JS возможности языка</div>
+					<div class="technology__item">JS в браузере</div>
+					<div class="technology__item">Node.js и пакет npm</div>
+					<div class="technology__item">TypeScript</div>
+					<div class="technology__item">Препроцессоры: Less, Sass/Scss</div>
+				</div>
+			</div>
+		</div> -->
+
 </body>
 </html>
