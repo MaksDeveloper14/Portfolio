@@ -72,6 +72,7 @@
 .about-me {
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 100px 0;
 }
@@ -89,6 +90,7 @@
 /* заголовок 2 уровня */
 .about-me__text .title2 {
 	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 /* моя фотография */
@@ -189,15 +191,46 @@
 	height: 50%	;
 	background-color: blue;
 	box-sizing: border-box;
+	position: relative;
+	border: solid 4px blue;
+}
+
+.certificaties__item img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
 }
 
 .footer__text {
-	font-size: 30px;
+	font-size: 26px;
 	color: white;
 	text-align: center;
 	font-weight: normal;
 }
 
+
+
+
+/* Breackpoint  под initial-scale=0.5*/
+
+/* от самых маленьких до 220px */
+@media screen (max-width: 220px) {
+	
+}
+
+/* от 220px до 700px */
+@media screen (min-width: 220px) and (max-width: 700px) {
+	
+}
+
+/* от 700px и более */
+@media screen (min-width: 700px) {
+	
+}
+
+
+/* Breackpoint  под initial-scale=1*/
 
 
 
