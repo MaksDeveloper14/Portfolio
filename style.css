@@ -8,10 +8,11 @@
 /* Шапка сайта */
 .header {
 	width: 100%;
-	height: 100vh;
+	height: 100vh; /* 730px */
 	background: url('images/comp4.jpg') no-repeat;
 	background-size: cover; /* при адаптации прописать 100% */
 	background-position: bottom;
+	background-color: #5999b2;
 }
 
 /* Верхняя навигация */
@@ -41,8 +42,9 @@
 	font-size: 54px;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 75px;
-	margin-left: 130px;
+	padding-top: 75px;
+	padding-left: 130px;
+	box-sizing: border-box;
 	line-height: 65px;
 	color: #333;
 	/*word-spacing: 10px;*/
@@ -59,8 +61,9 @@
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 40px;
-	margin-left: 120px;
+	padding-top: 40px;
+	padding-left: 120px;
+	box-sizing: border-box;
 	color: #555;
 	font-style: italic;
 	line-height: 50px;
@@ -129,7 +132,7 @@
 }
 
 .my-works__link {
-	width: 19%;
+	width: 300px;
 	height: 250px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -182,12 +185,13 @@
 	height: 70%;
 	margin: 0 auto;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 }
 
 .certificaties__item {
-	width: 10%;
+	width: 120px;
 	height: 50%	;
 	background-color: blue;
 	box-sizing: border-box;
@@ -199,7 +203,6 @@
 	width: 100%;
 	height: 100%;
 	position: absolute;
-
 }
 
 .footer__text {
@@ -212,29 +215,121 @@
 
 
 
-/* Breackpoint  под initial-scale=0.5*/
+/* Скрытые элементы но реализованные в структуре HTML для адаптива */
 
-/* от самых маленьких до 220px */
-@media screen (max-width: 220px) {
-	
+
+.about-me__float-left {
+	display: none;
 }
 
-/* от 220px до 700px */
-@media screen (min-width: 220px) and (max-width: 700px) {
-	
-}
-
-/* от 700px и более */
-@media screen (min-width: 700px) {
-	
+.about-me__float-left h2 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 
-/* Breackpoint  под initial-scale=1*/
+
+
+/* 250 */
+/* 620  */
+/* 900 */
+/* 900 и выше - обычная верстка */
+
+
+/* --- Адаптивность --- */
+
+/* от 250 до 620 */
+@media screen and (min-width: 250px) and (max-width: 620px) {
+	.header {
+		background-position: center;
+	}
+
+	.header__title {
+		font-size: 26px;
+		line-height: 40px;
+		margin-top: 50px;
+		padding: 0;
+		/*padding-left: 30px;*/
+	}
+
+	.header__text {
+		font-size: 26px;
+		margin-top: 50px;
+		padding-left: 70px;
+	}
+
+	 /* моя фотография */
+	.about-me__my-photo {
+		width: 250px;
+		height: 300px;
+		border-radius: 10px;
+		float: left;
+		margin-right: 20px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	.about-me {
+		padding: 0;
+		margin-top: 20px;
+		display: block;
+	}
+
+	.about-me__text {
+		display: none;
+	}
+
+	.about-me__float-left {
+		display: block;
+	}
+
+	.my-works__title {
+		font-size: 20px;
+		padding: 25px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 620px)  and () {
+	
+}
 
 
 
 
+
+
+
+/* Десктопы или Лептопы */
+@media screen and (min-width: 1300px) {
+
+}
+
+/* Планшеты вертикально */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Планшеты и большие телефоны горизонтально */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+	
+}	
+
+/* Маленькие телефоны */
+@media screen and (max-width: 520px) {
+
+}
+
+
+
+
+
+
+
+
+
+/* вместо ml везде сделать pl */
 
 
 
