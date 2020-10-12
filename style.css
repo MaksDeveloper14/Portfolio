@@ -91,7 +91,7 @@
 }
 
 /* заголовок 2 уровня */
-.about-me__text .title2 {
+.about-me__title2 {
 	margin-bottom: 20px;
 	font-weight: bold;
 }
@@ -239,10 +239,16 @@
 
 /* --- Адаптивность --- */
 
+
+@media screen and (max-width: 250px) {
+	
+}
+
 /* от 250 до 620 */
 @media screen and (min-width: 250px) and (max-width: 620px) {
 	.header {
-		background-position: center;
+		background-size: cover;
+		background-position: bottom;
 	}
 
 	.header__title {
@@ -289,36 +295,30 @@
 		padding: 25px;
 		margin-top: 20px;
 	}
+
+	.my-works__link {
+		width: 200px;
+		height: 200px;
+	}
 }
 
-@media screen and (min-width: 620px)  and () {
-	
-}
+@media screen and (min-width: 621px)  and (max-width: 899px) {
+	.header__title {
+		font-size: 39px;
+		padding-top: 18px;
+		line-height: 52px;
+	}
 
-
-
-
-
-
-
-/* Десктопы или Лептопы */
-@media screen and (min-width: 1300px) {
-
-}
-
-/* Планшеты вертикально */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-	
-}
-
-/* Планшеты и большие телефоны горизонтально */
-@media screen and (min-width: 767px) and (max-width: 991px) {
-	
-}	
-
-/* Маленькие телефоны */
-@media screen and (max-width: 520px) {
-
+	.header__text {
+		font-size: 28px;
+		padding-top: 80px;
+		padding-right: 40px;
+	}
+	.about-me__title2 {
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -329,12 +329,8 @@
 
 
 
-/* вместо ml везде сделать pl */
 
-
-
-
-
+/* ------------------------------------------------------ */
 
 /* -- Technology -- */
 
