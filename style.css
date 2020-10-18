@@ -271,8 +271,8 @@
 
 	 /* моя фотография */
 	.about-me__my-photo {
-		width: 250px;
-		height: 300px;
+		width: 180px;
+		height: 210px;
 		border-radius: 10px;
 		float: left;
 		margin-right: 20px;
