@@ -112,7 +112,6 @@
 .my-works {
 	width: 100%;
 	background-color: #e8e8e8;
-	/*background: url('images/beton.jpg') no-repeat;*/
 	background-size: cover;
 }
 
@@ -139,7 +138,8 @@
 	height: 250px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 35px;
+	margin-left: 18px;	
+	margin-right: 18px;	
 	border-radius: 30px;
 	border: 5px solid #333;
 	background-color: white;
