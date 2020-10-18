@@ -8,11 +8,11 @@
 /* Шапка сайта */
 .header {
 	width: 100%;
-	height: 100vh; /* 730px */
+	height: 100vh;
 	background: url('images/comp4.jpg') no-repeat;
 	background-size: cover;
 	background-position: bottom;
-	background-color: #5999b2;
+	background-color: #5999b2; /* по фоновая картинка не загрузиться, будет цвет фона такой */
 }
 
 /* Верхняя навигация */
@@ -20,6 +20,7 @@
 	opacity: 0.9;
 	width: 100%;
 	height: 10vh;
+	/*height: 80px;*/
 	background-color: black;
 	display: flex;
 	justify-content: space-around;
@@ -39,6 +40,7 @@
 
 /* Junior Frontend */
 .header__title {
+	display: none;
 	font-size: 54px;
 	font-weight: bold;
 	text-align: center;
@@ -58,6 +60,7 @@
 
 /* Текст в шапке */
 .header__text {
+	display: none;
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
@@ -310,6 +313,15 @@
 	.certificates {
 		padding-top: 20px;
 	}
+	.certificaties__item {
+		width: 90px;
+		height: 140px;
+		overflow: hidden;
+		border-radius: 7px;
+		margin-right: 10px;
+		border: solid 3px blue;
+	}
+
 }
 
 
