@@ -253,6 +253,7 @@
 	}
 
 	.header__title {
+		display: none;
 		font-size: 16px;
 		line-height: 20px;
 		margin-top: 10px;
@@ -261,6 +262,7 @@
 	}
 
 	.header__text {
+		display: none;
 		font-size: 16px;
 		line-height: 20px;
 		margin-top: 10px;
