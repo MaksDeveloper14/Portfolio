@@ -19,8 +19,7 @@
 .header__navigation {
 	opacity: 0.9;
 	width: 100%;
-	height: 10vh;
-	/*height: 80px;*/
+	height: 75px;
 	background-color: black;
 	display: flex;
 	justify-content: space-around;
@@ -259,7 +258,7 @@
 	}
 
 	.header__navigation {
-		height: 7vh;
+		height: 40px;
 	}
 
 	.header__title {
@@ -342,16 +341,14 @@
 }
 
 
-@media screen and (min-width: 621px) and (max-width: 713px) {
-	.header {
-		background-position: top;
-		height: 473px;
-	}
-}
-
+/* 621px до 899px */
 @media screen and (min-width: 621px)  and (max-width: 899px) {
 	.header {
 		background-size: 100%;
+	}
+
+	.header__navigation {
+		height: 50px;
 	}
 
 	.header__title {
@@ -371,6 +368,25 @@
 		margin-bottom: 20px;
 	}
 }
+
+/* 621px до 713px */
+/* Переопределяем, значить помещаем ниже основного */
+@media screen and (min-width: 621px) and (max-width: 713px) {
+	.header {
+		background-position: top;
+		height: 473px;
+	}
+}
+
+/* 900px до 1200px */
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+	/* Уменьшаем высоту навигации */
+	.header__navigation {
+		height: 50px;
+	}
+}
+
 
 
 
