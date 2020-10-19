@@ -258,6 +258,10 @@
 		height: 300px;
 	}
 
+	.header__navigation {
+		height: 7vh;
+	}
+
 	.header__title {
 		display: none;
 		font-size: 16px;
@@ -375,8 +379,6 @@
 
 
 
-
-
 /* ------------------------------------------------------ */
 
 /* -- Technology -- */
@@ -458,7 +460,6 @@
 	margin-top: 45px;
 	text-align: center;
 }
-
 
 
 
