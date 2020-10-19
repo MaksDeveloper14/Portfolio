@@ -249,6 +249,7 @@
 	
 }
 
+
 /* от 250 до 620 */
 @media screen and (min-width: 250px) and (max-width: 620px) {
 	.header {
@@ -324,6 +325,16 @@
 		border: solid 3px blue;
 	}
 
+}
+
+/* В диапазоне от 250 до 620, переопределяем размер блоков работ от 250px до 371px */
+/* ***Важно прописывать этот медиазапрос ниже основного, чтобы переопределить элементы */
+@media screen and (min-width: 250px) and (max-width: 371px) {
+	.my-works__link { 
+		width: 120px;	/* Растягиваем блоки работы на всю ширину */
+		height: 120px;
+		border: 3px solid #333;
+	}
 }
 
 
