@@ -282,6 +282,10 @@
 	   	padding: 0;
 	   	font-size: 12px;
 	   }
+	   .certificaties__item {
+	   	width: 70px;
+	   	height: 35%;
+	   }
 	 }
 
 /*	 @media screen and (max-width: 531px) { 
