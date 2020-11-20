@@ -287,6 +287,8 @@
 	   }
 	 }
 
+	 /* Для телефона */
+
 	 @media screen and (min-width: 480px) and (max-width: 617px) {
 	   .my-works__work-link {
 	   		width: 215px;
@@ -299,6 +301,12 @@
 	   		width: 200px;
 	   		height: 200px;
 	   }
+	 }
+	 
+	 @media screen and (max-width: 617px) {
+	 	 .my-works__title {
+	 	 	font-size: 20px;
+	 	 }
 	 }
 
 
