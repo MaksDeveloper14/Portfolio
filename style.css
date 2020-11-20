@@ -318,6 +318,13 @@
 	 		}
 	 }
 
+	 /* Высота экрана в пикселях */
+	 @media only screen and (max-height: 500px) {
+     .header__title {
+       display: none;
+     }
+	 }
+
 
 /*	 @media screen and (max-width: 531px) { 
 	 	.my-works__work-link {
