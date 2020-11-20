@@ -301,13 +301,6 @@
 	   }
 	 }
 
-	  @media screen and (min-width: 240px) and (max-width: 617px) {
-	   .contact-information {
-	   	  font-size: 14px;
-	   	  color: red;
-	   }
-	 }
-
 /*	 @media screen and (max-width: 531px) { 
 	 	.my-works__work-link {
 	   	width: 180px;
