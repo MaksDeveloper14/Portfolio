@@ -312,6 +312,7 @@
 	 		.about-me {
 	 			flex-wrap: nowrap;
 	 		}
+
 	 		.about-me__text {
 	 			padding-left: 65px;
 	 			padding-right: 65px;
@@ -320,6 +321,9 @@
 	 		.about-me__my-photo {
 	 			width: 280px;
 	 			height: 320px;
+	 		}
+	 		.my-works__wrap-works {
+	 			justify-content: space-between;
 	 		}
 	 		.my-works__work-link {
 	 			width: 200px;
