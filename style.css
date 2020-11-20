@@ -309,14 +309,17 @@
 	 		.header {
 	 			height: 100vh;
 	 		}
+	 		.about-me {
+	 			flex-wrap: nowrap;
+	 		}
 	 		.about-me__text {
-	 			padding-left: 30px;
-	 			padding-right: 30px;
+	 			padding-left: 50px;
+	 			padding-right: 50px;
 	 			box-sizing: border-box;
 	 		}
 	 		.about-me__my-photo {
-	 			width: 250px;
-	 			height: 280px;
+	 			width: 280px;
+	 			height: 320px;
 	 		}
 	 		.my-works__work-link {
 	 			width: 200px;
