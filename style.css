@@ -301,6 +301,16 @@
 	   }
 	 }
 
+	 @media screen and (min-width: 800px) and (max-width: 2500px) {
+	 		body {
+	 			color: red;
+	 		}
+	 		.header {
+	 			height: 100vh;
+	 		}
+	 }
+
+
 /*	 @media screen and (max-width: 531px) { 
 	 	.my-works__work-link {
 	   	width: 180px;
