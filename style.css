@@ -230,6 +230,10 @@
 
 	 /*~~~~~~~~ МЕДИАЗАПРОСЫ ~~~~~~~ */
 
+	 /* Мой планшет Huawei - 1200px на 1920px */
+ 	 /* Мой телефон Samsung - 1080px на 2340px */
+ 	 /* Мой ноутбук Lenovo ThinkPad -  */
+
 	 @media screen and (max-width: 1700px) {
 	   .header__subtitle {
 	   	display: none;
@@ -268,9 +272,9 @@
  		}
     .my-works__work-link {
     	width: 230px;
-   	 height: 190px;
-   	 padding: 0;
-   	 font-size: 14px;
+   	  height: 190px;
+   	  padding: 0;
+   	  font-size: 14px;
     }
     .my-works__title {
     	padding: 20px;
@@ -285,6 +289,13 @@
 	   .certificaties__item {
 	   	width: 90px;
 	   	height: 45%;
+	   }
+	 }
+
+	 @media screen and (min-width: 480px) and (max-width: 617px) {
+	   .my-works__work-link {
+	   		width: 200px;
+	   		height: 200px;
 	   }
 	 }
 
