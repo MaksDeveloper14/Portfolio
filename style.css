@@ -305,13 +305,13 @@
 
 
 	 /* Альбомная ориентация */
-	 @media screen and (min-width: 800px) and (max-width: 1200px) {
+	 @media screen and (min-width: 700px) and (max-width: 1200px) {
 	 		.header {
 	 			height: 100vh;
 	 		}
 	 		.about-me__text {
-	 			padding-left: 50px;
-	 			padding-right: 50px;
+	 			padding-left: 30px;
+	 			padding-right: 30px;
 	 			box-sizing: border-box;
 	 		}
 	 		.about-me__my-photo {
