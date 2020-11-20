@@ -323,7 +323,7 @@
 	 			height: 320px;
 	 		}
 	 		.my-works__wrap-works {
-	 			justify-content: space-between;
+	 			justify-content: space-around;
 	 		}
 	 		.my-works__work-link {
 	 			width: 200px;
