@@ -9,7 +9,6 @@
 
 .header {
 	/*position: relative;*/
-
 	font-family: serif;
 	width: 100%;
 	height: 100vh;
@@ -299,6 +298,13 @@
 	   .my-works__work-link {
 	   		width: 200px;
 	   		height: 200px;
+	   }
+	 }
+
+	  @media screen and (min-width: 240px) and (max-width: 617px) {
+	   .contact-information {
+	   	  font-size: 14px;
+	   	  color: red;
 	   }
 	 }
 
