@@ -319,7 +319,7 @@
 	 }
 
 	 /* Высота экрана в пикселях */
-	 @media only screen and (max-height: 800px) {
+	 @media screen and (max-height: 800px) {
      .header__title {
        display: none;
      }
