@@ -301,10 +301,9 @@
 	   }
 	 }
 
+
+	 /* Альбомная ориентация */
 	 @media screen and (min-width: 800px) and (max-width: 1200px) {
-	 		body {
-	 			color: red;
-	 		}
 	 		.header {
 	 			height: 100vh;
 	 		}
