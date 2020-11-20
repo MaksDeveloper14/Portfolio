@@ -310,12 +310,12 @@
 	 			height: 100vh;
 	 		}
 	 		.about-me__my-photo {
-	 			width: 370px;
-	 			height: 370px;
+	 			width: 250px;
+	 			height: 280px;
 	 		}
 	 		.my-works__work-link {
-	 			width: 250px;
-	   		height: 250px;
+	 			width: 200px;
+	   		height: 200px;
 	   		font-size: 16px;
 	 		}
 	 }
