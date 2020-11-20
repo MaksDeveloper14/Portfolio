@@ -294,6 +294,14 @@
 
 	 @media screen and (min-width: 480px) and (max-width: 617px) {
 	   .my-works__work-link {
+	   		width: 220px;
+	   		height: 220px;
+	   		color: blue;
+	   }
+	 }
+
+	 	@media screen and (min-width: 480px) and (max-width: 512px) {
+	   .my-works__work-link {
 	   		width: 200px;
 	   		height: 200px;
 	   }
