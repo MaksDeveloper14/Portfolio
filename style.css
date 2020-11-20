@@ -302,7 +302,7 @@
 	   		height: 200px;
 	   }
 	 }
-	 
+
 	 @media screen and (max-width: 617px) {
 	 	 .my-works__title {
 	 	 	font-size: 20px;
@@ -327,7 +327,7 @@
 	 }
 
 	 /* Высота экрана в для телефонов */
-	 @media screen and (max-height: 600px) {
+	 @media screen and (max-height: 400px) {
      .header__title {
        display: none;
      }
