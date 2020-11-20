@@ -318,8 +318,8 @@
 	 		}
 	 }
 
-	 /* Высота экрана в пикселях */
-	 @media screen and (max-height: 800px) {
+	 /* Высота экрана в для телефонов */
+	 @media screen and (max-height: 600px) {
      .header__title {
        display: none;
      }
