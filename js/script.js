@@ -21,7 +21,7 @@ function photoСhange() {
 	// меняем каждые 1 сек
 	setInterval(function() {
 		onClickMyPhoto();
-	}, 2000)
+	}, 10000)
 }
 
 photoСhange();

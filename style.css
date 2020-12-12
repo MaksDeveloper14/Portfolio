@@ -67,6 +67,7 @@
 /* ~~~~~~~ ABOUT ME ~~~~~~~~ */
 
 .about-me {
+	position: relative;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -74,6 +75,34 @@
 	align-items: center;
 	padding: 100px 0;
 	font-family: 'Space Grotesk', sans-serif;
+}
+
+/*.about-me:after {
+	content: "Нажимай";
+	position: absolute;
+	color: red;
+	bottom: 100px;
+	color: white;
+	letter-spacing: 6px;
+	background-color: black;
+	right: 17%;
+}*/
+
+.fa-reply, .fa-instagram {
+	position: absolute;
+	right: 15.5%;
+	bottom: 105px;
+	color: black;
+	transform: rotate(90deg);
+	color: black;
+	/*	background-color: black;
+	color: white;*/
+}
+
+.about-me .fa-instagram {
+	font-size: 20px;
+	right: 25.6%;
+	bottom: 98px;
 }
 
 /* текст */
