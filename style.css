@@ -481,33 +481,6 @@
 	text-align: center;
 }
 
-.netology-course {
-	cursor: pointer;
-	transition: opacity 2s;
-}
-
-.netology-course-80,
-.netology-course-html,
-.netology-course-js,
-.netology-course-js-br {
-	position: absolute;
-	visibility: hidden;
-	opacity: 0;
-}
-
-.netology-course-80 {
-	transition: opacity 3.3s;
-}
-.netology-course-html {
-	transition: opacity 3.5s;
-}
-.netology-course-js {
-	transition: opacity 3.7s;
-}
-.netology-course-js-br {
-	transition: opacity 3.9s;
-}
-
 
 
 
