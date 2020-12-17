@@ -55,12 +55,13 @@
 		if(i > 1) {
 			i = 0;
 		}
+		myPhoto.style.transition = 'opacity 2s';
 		myPhoto.style.opacity = 1;
 	}
 
 		// меняем каждые 1 сек
 	setInterval(function() {
-		myPhoto.style.transition = 'opacity 2s';
+		myPhoto.style.transition = 'opacity 5s';
 		myPhoto.style.opacity = 0;
 	}, 5000)
 
