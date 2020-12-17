@@ -156,6 +156,10 @@
 	padding: 50px 0;
 }
 
+.my-works__wrap-work-link {
+	position: relative;
+}
+
 .my-works__work-link {
 	width: 300px;
 	height: 250px;
@@ -186,6 +190,39 @@
 .my-works__work-link:hover {
 	color: #0f7a8c;
 }
+
+.my-works__description-link {
+	position: absolute;
+	bottom: 18%;
+	left: 62%;
+	text-decoration: none;
+	color: #555;
+	/*font-style: italic;*/
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+
+.my-works__description-link:hover {
+	color: #0f7a8c;
+}
+
+.my-works__code-zip {
+	position: absolute;
+	bottom: 18%;
+	left: 16%;
+	text-decoration: none;
+	color: #555;
+	/*font-style: italic;*/
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+
+.my-works__code-zip:hover {
+	color: #0f7a8c;
+}
+
 
 
 /* ~~~~~~~~~ FOOTER ~~~~~~~~~ */
