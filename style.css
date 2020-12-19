@@ -217,7 +217,7 @@
 	/*font-style: italic;*/
 	font-size: 14px;
 	font-weight: bold;
-	/*font-family: Comic Sans MS;*/
+	font-family: Comic Sans MS;
 }
 
 .my-works__description-link:hover {
@@ -233,7 +233,7 @@
 	/*font-style: italic;*/
 	font-size: 14px;
 	font-weight: bold;
-	/*font-family: Comic Sans MS;*/
+	font-family: Comic Sans MS;
 }
 
 .my-works__code-zip:hover {
@@ -372,12 +372,12 @@
 		 .my-works__description-link {
 			bottom: 23%;
 			left: 40%;
-			font-size: 12.5px;
+			font-size: 12px;
 		 }
 		 .my-works__code-zip {
 		 	bottom: 16%;
 			left: 36%;
-			font-size: 12.5px;
+			font-size: 12px;
 		 }
 	 }
 
