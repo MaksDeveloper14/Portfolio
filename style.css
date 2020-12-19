@@ -211,6 +211,10 @@
 .my-works__description-link {
 	position: absolute;
 	bottom: 23%;
+
+	/*без скачать zip*/
+	bottom: 20%;
+	
 	left: 43%;
 	text-decoration: none;
 	color: #555;
