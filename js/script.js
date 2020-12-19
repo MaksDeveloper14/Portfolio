@@ -1,5 +1,5 @@
 
-// 1.Показываем работы Нетология, 4 блока - при клике мышкой
+// 1.Анимация на блок - курсы Нетология
 
 // let netologyCourse = document.querySelector('.netology-course');
 // let netologyCourse80 = document.querySelector('.netology-course-80');
@@ -37,7 +37,43 @@
 
 
 
+// 2. Плавная смена - фото
 
+
+	// const myPhoto = document.getElementsByClassName('about-me__my-photo')[0];
+
+	// let i = 0;
+
+	// const arrSrc = [
+	// 	'images/my-comp.jpg',
+	// 	'images/моя фотография.jpg'
+	// ]
+
+	// function changePhoto() {
+	// 	myPhoto.src = arrSrc[i];
+	// 	i++;
+	// 	if(i > 1) {
+	// 		i = 0;
+	// 	}
+	// 	myPhoto.style.transition = 'opacity 2s';
+	// 	myPhoto.style.opacity = 1;
+	// }
+
+	// 	// меняем каждые 1 сек
+	// setInterval(function() {
+	// 	myPhoto.style.transition = 'opacity 5s';
+	// 	myPhoto.style.opacity = 0;
+	// }, 5000)
+
+	// // меняем каждые 1 сек
+	// setInterval(function() {
+	// 	changePhoto();
+	// }, 10000)
+
+
+
+
+// 3. Быстрая смена - фото
 
 
 	const myPhoto = document.getElementsByClassName('about-me__my-photo')[0];
@@ -55,18 +91,9 @@
 		if(i > 1) {
 			i = 0;
 		}
-		myPhoto.style.transition = 'opacity 2s';
-		myPhoto.style.opacity = 1;
 	}
 
-		// меняем каждые 1 сек
-	setInterval(function() {
-		myPhoto.style.transition = 'opacity 5s';
-		myPhoto.style.opacity = 0;
-	}, 5000)
 
-	// меняем каждые 1 сек
 	setInterval(function() {
 		changePhoto();
-	}, 10000)
-
+	}, 7000)
