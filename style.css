@@ -130,7 +130,7 @@
 	border-radius: 10px;
 }
 
-/*.wrapper-link-image {
+.wrapper-link-image {
 	position: relative;
 }
 .wrapper-link-image::after {
@@ -138,14 +138,14 @@
 	color: white;
 	background-color: black;
 	position: absolute;
-	letter-spacing: 3px;
-	right: -80px;
+	letter-spacing: 5px;
+	right: -87px;
 	top: 48%;
-	padding: 3px 5px;
-	border-radius: 5px;
+	padding: 3px 2px;
+	/*border-radius: 5px;*/
 	font-family: sans-serif;
 	transform: rotate(90deg);
-}*/
+}
 
 
 /*  ~~~~~~~~~ MY WORKS ~~~~~~~~~~ */
@@ -328,7 +328,6 @@
 	 	.header .contact-information {
 	 		height: 55px;
 	 	}
-
 	 }
 
 	 @media screen and (max-width: 1200px) {
@@ -376,8 +375,8 @@
 			 /*border-radius: 0;*/
 		 }
 		 .my-works__description-link {
-			bottom: 23%;
-			left: 63%;
+			bottom: 22%;
+			left: 61%;
 			font-size: 12px;
 		 }
 		 .my-works__code-zip {
@@ -404,7 +403,6 @@
 			 right: -70px;
 			 border-radius: 0;
 		 }
-
 	 }
 
 	 	@media screen and (min-width: 480px) and (max-width: 512px) {
