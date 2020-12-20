@@ -142,7 +142,6 @@
 	right: -87px;
 	top: 48%;
 	padding: 3px 5px;
-	/*border-radius: 5px;*/
 	font-family: sans-serif;
 	transform: rotate(90deg);
 }
@@ -223,6 +222,11 @@
 	font-weight: bold;
 	font-family: Comic Sans MS;
 	color: black;
+	color: #0f7a8c;
+	background-color: black;
+	color: white;
+	padding: 3px 5px;
+	font-weight: normal;
 }
 
 .my-works__description-link:hover {
@@ -239,6 +243,11 @@
 	font-size: 14px;
 	font-weight: bold;
 	font-family: Comic Sans MS;
+	color: #0f7a8c;
+	background-color: black;
+	color: white;
+	padding: 3px 5px;
+	font-weight: normal;
 }
 
 .my-works__code-zip:hover {
