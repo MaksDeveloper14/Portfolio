@@ -215,13 +215,14 @@
 	/*без скачать zip*/
 	bottom: 20%;
 
-	left: 43%;
+	left: 63%;
 	text-decoration: none;
 	color: #555;
 	/*font-style: italic;*/
 	font-size: 14px;
 	font-weight: bold;
 	font-family: Comic Sans MS;
+	color: black;
 }
 
 .my-works__description-link:hover {
@@ -230,10 +231,10 @@
 
 .my-works__code-zip {
 	position: absolute;
-	bottom: 16%;
-	left: 40%;
+	bottom: 12%;
+	left: 14%;
 	text-decoration: none;
-	color: #555;
+	color: #666;
 	/*font-style: italic;*/
 	font-size: 14px;
 	font-weight: bold;
