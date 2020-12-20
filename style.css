@@ -136,7 +136,7 @@
 .wrapper-link-image::after {
 	content: 'Нажимай';
 	color: white;
-	background-color: black;
+	background-color: #333;
 	position: absolute;
 	letter-spacing: 5px;
 	right: -87px;
@@ -223,7 +223,7 @@
 	font-family: Comic Sans MS;
 	color: black;
 	color: #0f7a8c;
-	background-color: black;
+	background-color: #333;
 	color: white;
 	padding: 3px 5px;
 	font-weight: normal;
@@ -244,7 +244,7 @@
 	font-weight: bold;
 	font-family: Comic Sans MS;
 	color: #0f7a8c;
-	background-color: black;
+	background-color: #333;
 	color: white;
 	padding: 3px 5px;
 	font-weight: normal;
