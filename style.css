@@ -141,7 +141,7 @@
 	letter-spacing: 5px;
 	right: -87px;
 	top: 48%;
-	padding: 3px 2px;
+	padding: 3px 5px;
 	/*border-radius: 5px;*/
 	font-family: sans-serif;
 	transform: rotate(90deg);
@@ -371,7 +371,7 @@
 	   }
 	   .wrapper-link-image::after {
 			 font-size: 12px;
-			 right: -70px;
+			 right: -54px;
 			 /*border-radius: 0;*/
 		 }
 		 .my-works__description-link {
@@ -397,11 +397,11 @@
 				font-size: 12px;
 				right: -70px;
 				border-radius: 0;
-			}
+		 }
 		 .wrapper-link-image::after {
 			 font-size: 12px;
-			 right: -70px;
-			 border-radius: 0;
+			 right: -34px;
+			 /*border-radius: 0;*/
 		 }
 	 }
 
@@ -410,11 +410,6 @@
 	   		width: 200px;
 	   		height: 200px;
 	   }
-	   .wrapper-link-image::after {
-			 font-size: 12px;
-			 right: -70px;
-			 border-radius: 0;
-		 }
 	 } 
 
 	 @media screen and (max-width: 617px) {
@@ -423,7 +418,7 @@
 	 	 }
 	 	 .wrapper-link-image::after {
 			 font-size: 12px;
-			 right: -70px;
+			 right: -54px;
 			 border-radius: 0;
 		 }
 	 }
