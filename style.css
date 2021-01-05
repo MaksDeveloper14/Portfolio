@@ -428,9 +428,6 @@
 		 .about-me__wrapper-my-photo {
 		 	padding: 0 30px;
 		 }
-		 .fa-arrow-right {
-		 	color: red;
-		 }
 	 }
 
 	 	@media screen and (min-width: 480px) and (max-width: 512px) {
@@ -479,8 +476,13 @@
 	 		.about-me__wrapper-my-photo {
 	 			padding: 0;
 		 	}
+		 	.fa-arrow-left {
+		 		top: 110%;
+		 		left: 45%;
+		 	}
 		 	.fa-arrow-right {
-		 		color: red;
+		 		top: -15%;
+		 		left: 45%;
 		 	}
 	 }
 
