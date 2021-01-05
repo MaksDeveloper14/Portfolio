@@ -5,7 +5,7 @@
 
 
 
-/* ~~~~~~~ HEADER ~~~~~~~ */
+/* HEADER */
 
 .header {
 	/*position: relative;*/
@@ -18,20 +18,13 @@
 	background-color: #5999b2; /* по фоновая картинка не загрузиться, будет цвет фона такой */
 }
 
-.contact-information {
+.header__head {
 	width: 100%;
 	height: 75px;
 	background-color: black;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-}
-
-.contact-information .my-name {
-	color: white;
-}
-
-.contact-information .my-phone {
 	color: white;
 }
 
@@ -44,7 +37,6 @@
 	box-sizing: border-box;
 	line-height: 55px;
 	color: #333;
-	/*word-spacing: 10px;*/
 }
 
 .header__subtitle {
@@ -64,7 +56,7 @@
 }
 
 
-/* ~~~~~~~ ABOUT ME ~~~~~~~~ */
+/* ABOUT ME */
 
 .about-me {
 	position: relative;
@@ -88,25 +80,13 @@
 	right: 17%;
 }*/
 
-.fa-reply, .fa-instagram {
-	position: absolute;
-	right: 15.5%;
-	bottom: 105px;
-	color: black;
-	transform: rotate(90deg);
-	color: black;
-	/*	background-color: black;
-	color: white;*/
-}
-
 .about-me .fa-instagram {
 	font-size: 20px;
 	right: 25.6%;
 	bottom: 98px;
 }
 
-/* текст */
-.about-me__text {
+.about-me__content {
 	width: 550px;
 	border-radius: 10px;
 	text-align: center;
@@ -114,7 +94,6 @@
 	font-size: 20px;
 }
 
-/* заголовок 2 уровня */
 .about-me__title {
 	margin: 0;
 	margin-bottom: 20px;
@@ -123,11 +102,46 @@
 	font-style: italic;
 }
 
-/* моя фотография */
+.about-me__wrapper-my-photo {
+	position: relative;
+	padding: 0 60px;
+}
+
 .about-me__my-photo {
 	width: 350px;
 	height: 400px;
+	z-index: 1000;
 	border-radius: 10px;
+}
+
+/* Стрелки к фото справа и слева */
+.fa-arrow-right {
+	position: absolute;
+	right: 0;
+	top: 45%;
+	cursor: pointer;
+/*	border: solid 3px black;
+	border-radius: 50%;
+	padding: 10px;
+	color: white;
+	background-color: black;*/
+}
+
+.fa-arrow-left {
+	position: absolute;
+	left: 0px;
+	top: 45%;
+	cursor: pointer;
+/*	border: solid 3px black;
+	border-radius: 50%;
+	padding: 10px;
+	color: white;
+	background-color: black;*/
+}
+
+.fa-arrow-right:before,
+.fa-arrow-left:before {
+	font-size: 20px;
 }
 
 /*.wrapper-link-image {
@@ -147,7 +161,7 @@
 }*/
 
 
-/*  ~~~~~~~~~ MY WORKS ~~~~~~~~~~ */
+/* My works */
 
 .my-works {
 	width: 100%;
@@ -156,7 +170,7 @@
 	background-size: cover;
 }
 
-.my-works__title {
+.my-works__title {	
 	text-align: center;
 	font-weight: bold;
 	font-size: 30px;
@@ -317,10 +331,6 @@
 }
 
 
-
-
-
-
 	 /*~~~~~~~~ МЕДИАЗАПРОСЫ ~~~~~~~ */
 
 	 /* Мой планшет Huawei - 1200px на 1920px */
@@ -349,6 +359,7 @@
  			margin-top: 20px;
  		}
  		.about-me {
+ 			position: relative;
  			padding: 0;
  			padding-top: 50px;
  			padding-bottom: 50px;
@@ -359,11 +370,17 @@
  			padding-left: 20px;
  			padding-right: 20px;
  		}
+
+ 		.about-me__wrapper-image {
+ 			position: relative;
+ 		}
+
  		.about-me__my-photo {
  			width: 260px;
  			height: 300px;
  			margin-right: 20px;
  		}
+
     .my-works__title {
     	padding: 20px;
     	font-size: 24px;

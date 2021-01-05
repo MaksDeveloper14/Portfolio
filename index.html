@@ -6,53 +6,47 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 	<!-- <link rel="stylesheet" type="text/css" href="adaptive.css"> -->
-	<script src="https://use.fontawesome.com/22add725eb.js"></script>
 </head>
 <body>
 
-	<!-- CONTAINER -->
 
 	<div class="container-site">
-
-		<!-- ~~~~~~~~~~ HEADER ~~~~~~~~~~~ -->
-
+		<!-- Header -->
 		<header class="header">
-			<!-- Контактная информация вверху header -->
-			<div class="contact-information"> 
-				<span class="my-name">Максим Волков</span>
-				<div class="my-phones">
+			<!-- 1 -->
+			<div class="header__head"> 
+				<span class="header__head-name">Максим Волков</span>
+				<div class="header__head-contacts">
 					<span class="my-phone">+7-963-648-30-55</span>
 					<br>
 					<span class="my-phone">+7-926-917-86-04</span>
 				</div>
 			</div>
-			<!-- Заголовко 1 уровня и заголовок 2 уровня -->
+			<!-- 2 -->
 			<h1 class="header__title">Junior Frontend <br> Developer</h1>	 
+			<!-- 3 -->
 			<h2 class="header__subtitle">Your web app will be <br> located here...</h2>
 		</header>
 
 
-		<!-- ~~~~~~~~~ ABOUT-ME ~~~~~~~~~~~~ -->
+		<!-- About me  -->
 
 		<div class="about-me"> 
-			<!-- <i class="fa fa-arrow-up"></i> -->
-			<!-- <i class="fa fa-reply"></i> -->
-			<!-- <i class="fa fa-instagram" aria-hidden="true"></i> -->
-			<div class="about-me__text">
+			<div class="about-me__content">
 				<h3 class="about-me__title">Кратко обо мне:</h3>
-				<p>Здраствуйте! Меня зовут Максим. Я прошёл популярные онлайн-курсы "Нетология" по направлению - веб-разработка, в количественном времени 8 месяцев. Изучил верстку HTML, CSS, язык программирования JavaScript и работу JavaScipt в браузере. Знаком с адаптивностью, на уровне медиазапросов и резиновой вёрстки. Также прошел полный курс на Udemy по React.js. Владею графическими редакторами Photoshop, Figma на уровне нарезки макетов. Умею работать с Bootstrap. Есть начальные знания по Vue.js, Angular, WordPress, PhpMyAdmin, препроцессоры CSS. Немного знаком с PHP - синтаксисом, есть пара решенных задач. Умею работать с git на практике и сервисом GitHub. Опыт веб-разработки 2 года, в свободные от работы часы. Умею быстро находить информацию в интернете, и решать поставленные задачи.</p>
+				<p class="about-me__text">Здраствуйте! Меня зовут Максим. Я прошёл популярные онлайн-курсы "Нетология" по направлению - веб-разработка, в количественном времени 8 месяцев. Изучил верстку HTML, CSS, язык программирования JavaScript и работу JavaScipt в браузере. Знаком с адаптивностью, на уровне медиазапросов и резиновой вёрстки. Также прошел полный курс на Udemy по React.js. Владею графическими редакторами Photoshop, Figma на уровне нарезки макетов. Умею работать с Bootstrap. Есть начальные знания по Vue.js, Angular, WordPress, PhpMyAdmin, препроцессоры CSS. Немного знаком с PHP - синтаксисом, есть пара решенных задач. Умею работать с git на практике и сервисом GitHub. Опыт веб-разработки 2 года, в свободные от работы часы. Умею быстро находить информацию в интернете, и решать поставленные задачи.</p>
 			</div>
-<!-- 			<div class="about-me__float-left">
-				<h3 class="about-me__title2">Кратко обо мне:</h3>
-				<p>Увлёкся в свое время веб-разработкой. Теперь нахожусь в поисках своего первого коммерческого опыта в IT технологиях. Претендую на позицию описанную выше. Знаю верстку HTML, CSS. Знаю язык программирования JavaScript и работу JavaScipt в браузере. Также знаком с React библиотекой js, Bootstrap. Начальные знания по Vue, WordPress, PhpMyAdmin, немного PHP. Знаком с системой версией git на практике и сервисом GitHub. Увлёкся в свое время веб-разработкой. Теперь нахожусь в поисках своего первого коммерческого опыта в IT технологиях. Претендую на позицию описанную выше. Знаю верстку HTML, CSS. Знаю язык программирования JavaScript и работу JavaScipt в браузере. Также знаком с React библиотекой js, Bootstrap. Начальные знания по Vue, WordPress, PhpMyAdmin, немного PHP. Знаком с системой версией git на практике и сервисом GitHubУвлёкся в свое время веб-разработкой. Теперь нахожусь в поисках своего первого коммерческого опыта в IT технологиях. Претендую на позицию описанную выше. Знаю верстку HTML, CSS. Знаю язык программирования JavaScript и работу JavaScipt в браузере. Также знаком с React библиотекой js, Bootstrap. Начальные знания по Vue, WordPress, PhpMyAdmin, немного PHP. Знаком с системой версией git на практике и сервисом GitHub. Увлёкся в свое время веб-разработкой. Теперь нахожусь в поисках своего первого коммерческого опыта в IT технологиях. Претендую на позицию описанную выше. Знаю верстку HTML, CSS. Знаю язык программирования JavaScript и работу JavaScipt в браузере. Также знаком с React библиотекой js, Bootstrap. Начальные знания по Vue, WordPress, PhpMyAdmin, немного PHP. Знаком с системой версией git на практике и сервисом GitHub.</p>
-			</div> -->
-			<a href="https://www.instagram.com/maks_today/?hl=ru" target="__blank" class="wrapper-link-image"><img src="images/моя фотография.jpg" class="about-me__my-photo" alt="Моя фотография"></a>
+			<div class="about-me__wrapper-my-photo">
+				<i class="fa fa-arrow-left"></i>
+				<i class="fa fa-arrow-right"></i>
+				<img src="images/моя фотография.jpg" class="about-me__my-photo" alt="Моя фотография">
+			</div>
 		</div>
 
 
-		<!-- ~~~~~~~~~~~ МОИ РАБОТЫ ~~~~~~~~~~~~ -->
-
+		<!-- Мои работы -->
 
 		<div class="my-works">
 			<h3 class="my-works__title">Мои работы</h3>
@@ -83,6 +77,11 @@
 					<!-- <a href="#Задание" class="my-works__description-link">Задание</a> -->
 					<!-- <a href="#Скачать zip" class="my-works__code-zip">Скачать zip</a> -->
 				</div>
+				<div class="my-works__wrap-work-link">
+					<a href="https://maksdeveloper14.github.io/Verstka-Bootstrap---Online-Shop2" class="my-works__work-link">Верстка на Bootstrap (material design) - Онлайн магазин</a>
+					<!-- <a href="#Задание" class="my-works__description-link">Задание</a> -->
+					<!-- <a href="#Скачать zip" class="my-works__code-zip">Скачать zip</a> -->
+				</div>	
 				<div class="my-works__wrap-work-link">
 					<a href="https://maksdeveloper14.github.io/ReactUdemy--AvtomatTesting/" target="blank" class="my-works__work-link">React Udemy полный курс - Автоматическое тестирование</a>
 					<!-- <a href="#Задание" class="my-works__description-link">Задание</a> -->
@@ -119,11 +118,6 @@
 				</div>	
 				<div class="my-works__wrap-work-link">
 					<a href="https://ibb.co/6tM4kgg" target="blank" class="my-works__work-link">4.Выполнение тестового задания на hh - Стажёр в Яндекс-Маркет 2/4 задачи</a>
-					<!-- <a href="#Задание" class="my-works__description-link">Задание</a> -->
-					<!-- <a href="#Скачать zip" class="my-works__code-zip">Скачать zip</a> -->
-				</div>	
-				<div class="my-works__wrap-work-link">
-					<a href="https://maksdeveloper14.github.io/Verstka-Bootstrap---Online-Shop2" class="my-works__work-link">Верстка на Bootstrap (material design) - Онлайн магазин</a>
 					<!-- <a href="#Задание" class="my-works__description-link">Задание</a> -->
 					<!-- <a href="#Скачать zip" class="my-works__code-zip">Скачать zip</a> -->
 				</div>	
