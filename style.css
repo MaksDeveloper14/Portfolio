@@ -508,6 +508,12 @@
 		 	width: 30px;
 		 	height: 30px;
 		 }
+		 .window-modal__title {
+		 	font-size: 20px;
+		 }
+		 .about-me__wrapper-my-photo {
+		 	padding: 0 45px;
+		 }
 	 }
 
 
