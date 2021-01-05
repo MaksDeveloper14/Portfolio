@@ -331,11 +331,16 @@
 }
 
 
+
+
+
+
 	 /*~~~~~~~~ МЕДИАЗАПРОСЫ ~~~~~~~ */
 
 	 /* Мой планшет Huawei - 1200px на 1920px */
  	 /* Мой телефон Samsung - 1080px на 2340px */
  	 /* Мой ноутбук Lenovo ThinkPad -  */
+
 
 	 @media screen and (max-width: 1700px) {
 	   .header__subtitle {
@@ -411,7 +416,9 @@
 		 }
 	 }
 
-	 /* Для телефона */
+
+
+	 /* ~~~~~~~~~ Для телефона ~~~~~~~~~  */
 
 	 @media screen and (min-width: 480px) and (max-width: 617px) {
 	   .my-works__work-link {
@@ -420,6 +427,9 @@
 	   }
 		 .about-me__wrapper-my-photo {
 		 	padding: 0 30px;
+		 }
+		 .fa-arrow-right {
+		 	color: red;
 		 }
 	 }
 
@@ -434,15 +444,11 @@
 	 	 .my-works__title {
 	 	   font-size: 17px;
 	 	 }
-	 	 .wrapper-link-image::after {
-			 font-size: 12px;
-			 right: -54px;
-			 border-radius: 0;
-		 }
 	 }
 
 
-	 /* Альбомная ориентация */
+	 /* ~~~~~~~  Альбомная ориентация  ~~~~~~~~ */
+
 	 @media screen and (min-width: 700px) and (max-width: 1200px) {
 	 		.header {
 	 			height: 100vh;
@@ -473,6 +479,9 @@
 	 		.about-me__wrapper-my-photo {
 	 			padding: 0;
 		 	}
+		 	.fa-arrow-right {
+		 		color: red;
+		 	}
 	 }
 
 	 /* Высота экрана в для телефонов */
@@ -481,6 +490,27 @@
        display: none;
      }
 	 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*	 @media screen and (max-width: 531px) { 
