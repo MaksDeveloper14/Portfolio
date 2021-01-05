@@ -418,16 +418,6 @@
 	   		width: 215px;
 	   		height: 215px;
 	   }
-	   .wrapper-link-image::after {
-				font-size: 12px;
-				right: -70px;
-				border-radius: 0;
-		 }
-		 .wrapper-link-image::after {
-			 font-size: 12px;
-			 right: -34px;
-			 /*border-radius: 0;*/
-		 }
 		 .about-me__wrapper-my-photo {
 		 	padding: 0 30px;
 		 }
@@ -480,6 +470,9 @@
 	   		box-sizing: border-box;
 	   		padding: 30px;
 	 		}
+	 		.about-me__wrapper-my-photo {
+	 			padding: 0;
+		 	}
 	 }
 
 	 /* Высота экрана в для телефонов */
