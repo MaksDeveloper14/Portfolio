@@ -109,12 +109,7 @@
 
 	const arrSrc = [
 	'images/моя фотография.jpg',
-	'images/my-comp.jpg',
-	'https://www.imagetext.ru/pics_max/images_11303.jpg',
-	'https://i.pinimg.com/originals/9c/94/82/9c9482f0fa6a94b08147c621765de0e5.png',
-	'https://i.pinimg.com/originals/38/62/2a/38622afc677e591fadf4da19c7e77150.jpg',
-	'https://pngimg.com/uploads/minions/minions_PNG86.png'
-
+	'images/my-comp.jpg'
 	]
 
 	arrowLeft.addEventListener('click', function() {
