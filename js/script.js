@@ -76,24 +76,62 @@
 // 3. Быстрая смена - фото
 
 
-	const myPhoto = document.getElementsByClassName('about-me__my-photo')[0];
+	// const myPhoto = document.getElementsByClassName('about-me__my-photo')[0];
+
+	// let i = 0;
+
+	// const arrSrc = [
+	// 	'images/my-comp.jpg',
+	// 	'images/моя фотография.jpg'
+	// ]
+
+	// function changePhoto() {
+	// 	myPhoto.src = arrSrc[i];
+	// 	i++;
+	// 	if(i > 1) {
+	// 		i = 0;
+	// 	}
+	// }
+
+
+	// setInterval(function() {
+	// 	changePhoto();
+	// }, 7000)
+
+
+	// 4. Смена фоток по клику по стрелкам
+
+	const myPhoto = document.querySelector('.about-me__my-photo');
+	const arrowRight = document.querySelector('.fa-arrow-right');
+	const arrowLeft = document.querySelector('.fa-arrow-left');
 
 	let i = 0;
 
 	const arrSrc = [
-		'images/my-comp.jpg',
-		'images/моя фотография.jpg'
+	'images/моя фотография.jpg',
+	'images/my-comp.jpg',
+	'https://www.imagetext.ru/pics_max/images_11303.jpg',
+	'https://i.pinimg.com/originals/9c/94/82/9c9482f0fa6a94b08147c621765de0e5.png',
+	'https://i.pinimg.com/originals/38/62/2a/38622afc677e591fadf4da19c7e77150.jpg',
+	'https://pngimg.com/uploads/minions/minions_PNG86.png'
+
 	]
 
-	function changePhoto() {
-		myPhoto.src = arrSrc[i];
-		i++;
-		if(i > 1) {
-			i = 0;
+	arrowLeft.addEventListener('click', function() {
+		if(i === 0) {
+			console.log('return');
+			return;
 		}
-	}
+		i--;
+		myPhoto.src = arrSrc[i];
+		console.log(i);
+	});
 
-
-	setInterval(function() {
-		changePhoto();
-	}, 7000)
+	arrowRight.addEventListener('click', function() {
+		if(i === arrSrc.length - 1) {
+			console.log('return');
+			return;
+		}
+		i++;
+		myPhoto.src = arrSrc[i];
+	});

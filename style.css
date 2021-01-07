@@ -414,6 +414,9 @@
 	   .header__subtitle {
 	   	display: none;
 	   }
+	   .window-modal__list-item a {
+		   font-size: 16px;
+		 }
 	 }
 
 	 @media screen and (max-width: 1007px) {
@@ -502,7 +505,7 @@
 	   		height: 215px;
 	   }
 		 .about-me__wrapper-my-photo {
-		 	padding: 0 20px;
+		 	padding: 0 30px;
 		 }
 		 .my-works__burger {
 		 	width: 30px;
@@ -533,7 +536,7 @@
 		 	font-size: 20px;
 		 }
 		 .about-me__wrapper-my-photo {
-		 	padding: 0 35px;
+		 	padding: 0 45px;
 		 }
 	 }
 
